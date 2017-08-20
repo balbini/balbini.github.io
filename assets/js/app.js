@@ -14,13 +14,14 @@ $(document).ready(function(){
         name: "Security Questions Project",
         project_name: "Bryan's Security Questions",//"file:///Users/bryanalbini/wdi/js-control-flow-training/starter-code/index.html",
         description: "Setting Up a Few Security Questions",
-        project_image:"~wdi/balbini.github.io/imgs/Screen Shot 2017-08-19 at 20.20.51"
+        project_image:"https://d30y9cdsu7xlg0.cloudfront.net/png/45447-200.png"
       }];
       let objectArray_3 = [
         {
           name: "My Third Project",
           project_name: "The Fantastic Mr. Fox",//"file:///Users/bryanalbini/wdi/json-to-html-with-mr-fox/index.html",
-          description: "Learning About the Fantastic Mr. Fox"
+          description: "Learning About the Fantastic Mr. Fox",
+          project_image:"https://vignette1.wikia.nocookie.net/fantasticmrfox/images/e/ed/MrFox.jpg/revision/latest?cb=20140512194259"
         }
 
 
@@ -36,12 +37,13 @@ $(document).ready(function(){
         $(".project_links_2").append(`<a href="#img_2"><li>${objectArray_2[i].name}</li></a>`)
         $(".project_links_2").append(`<li>${objectArray_2[i].project_name}</li>`)
         $(".project_links_2").append(`<li>${objectArray_2[i].description}</li>`)
-        $(".img_2").attr("src", `${objectArray_2[i].project_image}`)
+        $("#img_2").attr("src", `${objectArray_2[i].project_image}`)
       }
       for (i = 0; i < objectArray.length; i++){
-        $(".project_links_3").append(`<li>${objectArray_3[i].name}</li>`)
+        $(".project_links_3").append(`<a href="#img_3"><li>${objectArray_3[i].name}</li></a>`)
         $(".project_links_3").append(`<li>${objectArray_3[i].project_name}</li>`)
         $(".project_links_3").append(`<li>${objectArray_3[i].description}</li>`)
+        $("#img_3").attr("src", `${objectArray_3[i].project_image}`)
       };
 
 
