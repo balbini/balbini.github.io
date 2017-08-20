@@ -13,7 +13,8 @@ $(document).ready(function(){
       {
         name: "Security Questions Project",
         project_name: "Bryan's Security Questions",//"file:///Users/bryanalbini/wdi/js-control-flow-training/starter-code/index.html",
-        description: "Setting Up a Few Security Questions"
+        description: "Setting Up a Few Security Questions",
+        project_image:"~wdi/balbini.github.io/imgs/Screen Shot 2017-08-19 at 20.20.51"
       }];
       let objectArray_3 = [
         {
@@ -26,13 +27,13 @@ $(document).ready(function(){
       ];
 
       for (i = 0; i < objectArray.length; i++){
-        $(".project_links").append(`<li>${objectArray[i].name}</li>`)
+        $(".project_links").append(`<a href="#img_1"><li>${objectArray[i].name}</li></a>`)
         $(".project_links").append(`<li>${objectArray[i].project_name}</li>`)
         $(".project_links").append(`<li>${objectArray[i].description}</li>`)
-        $(".img_1").attr("src", `${objectArray[i].project_image}`)
+        $("#img_1").attr("src", `${objectArray[i].project_image}`)
       }
       for (i = 0; i < objectArray.length; i++){
-        $(".project_links_2").append(`<li>${objectArray_2[i].name}</li>`)
+        $(".project_links_2").append(`<a href="#img_2"><li>${objectArray_2[i].name}</li></a>`)
         $(".project_links_2").append(`<li>${objectArray_2[i].project_name}</li>`)
         $(".project_links_2").append(`<li>${objectArray_2[i].description}</li>`)
         $(".img_2").attr("src", `${objectArray_2[i].project_image}`)
