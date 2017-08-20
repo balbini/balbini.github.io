@@ -9,7 +9,7 @@ body {
 h1 {
   color: #000000;
   text-align: center;
-  font-family: fantasy, sans-serif;
+  font-family: monospace, sans-serif;
   color: white;
   margin-bottom: -10px;
 }
@@ -54,7 +54,7 @@ h3{
   align-content: center;
   padding: auto;
   justify-content: space-between;
-  font-family:monospace;
+  font-family:monospace, sans-serif;
   font-size: 20px;
   background-image: linear-gradient(hsla(360, 100%, 100%, 0.5), trasnparent;);
   color: white;
@@ -72,10 +72,9 @@ h3{
   color: green;
 }
 
-button{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.snippet{
+  display: block;
+  margin: 0 auto;
   font-size: 12px;
   font-style: italic;
   text-align: center;
@@ -86,6 +85,7 @@ footer {
   justify-content: center;
   margin: 50px;
   color: #FEFEFE;
+  font-family: monospace, sans-serif;
 }
 
 p{
@@ -94,4 +94,12 @@ p{
 }
 .spacer {
   margin-top: 30px;
+}
+.project_list{
+  color: white;
+  font-family: monospace, sans-serif;
+  font-size: 16px;
+}
+.welcome_button{
+  padding-bottom: 15px;
 }
