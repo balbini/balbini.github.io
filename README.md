@@ -7,7 +7,7 @@ and jQuery.
 
 ## Usage
 My website address: https://balbini.github.io/
-<img src = "https://pbs.twimg.com/profile_images/813584000082214912/5U3iZVs-.jpg" width="50%"/>
+<img src = "https://pbs.twimg.com/profile_images/813584000082214912/5U3iZVs-.jpg" width="15%"/>
 
 ## Contributing
   1. Fork it!
