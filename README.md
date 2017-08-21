@@ -1,6 +1,6 @@
 # Personal Portfolio Project
-This is my personal portfolio. It shows my knowledge of HTML, CSS, and
-Javascript.
+This is my personal portfolio. It shows my knowledge of HTML, CSS, Javascript,
+and jQuery.
 
 ## Installation
 
@@ -19,6 +19,7 @@ My website address: https://balbini.github.io/
 
 
 ## Credits
-
+Credits to https://www.clipart.com for the question mark image, https://www.google.com/images for the snapshot of their homepage, and the Fantastic Mr. Fox wiki for the
+images they contributed.
 
 ## License
