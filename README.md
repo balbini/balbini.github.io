@@ -7,7 +7,7 @@ and jQuery.
 
 ## Usage
 My website address: https://balbini.github.io/
-![alt text][logo] https://pbs.twimg.com/profile_images/813584000082214912/5U3iZVs-.jpg "GA Logo"
+![alt text] (https://pbs.twimg.com/profile_images/813584000082214912/5U3iZVs-.jpg "GA Logo")
 
 ## Contributing
   1. Fork it!
