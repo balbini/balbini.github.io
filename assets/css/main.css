@@ -36,6 +36,7 @@ nav {
 h3{
   flex-grow: 1;
   align-self: auto;
+  color: white;
 }
 .format{
   display: flex;
@@ -99,10 +100,20 @@ p{
   color: white;
   font-family: monospace, sans-serif;
   font-size: 16px;
+  padding-top: 10px;
 }
 .welcome_button{
   padding-bottom: 15px;
 }
 li {
   color: white;
+}
+#contact {
+  color: white;
+  font-family: monospace, sans-serif;
+  font-size: 16px
+}
+#img_3 {
+  width: 50%;
+  height: auto
 }
