@@ -7,6 +7,7 @@ and jQuery.
 
 ## Usage
 My website address: https://balbini.github.io/
+![alt text]("assets/imgs/favicon.png")
 
 ## Contributing
   1. Fork it!
