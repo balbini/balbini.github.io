@@ -18,7 +18,7 @@ My website address: https://balbini.github.io/
   5. Submit a pull request
 
 ## History
-
+I began building this site in Week 1 of my web development bootcamp. I am excited to see how it continues to grow as time goes on. Please let me know if you would like to hear more about my struggles and breakthroughs in building this website.
 
 ## Credits
 Credits to https://www.clipart.com for the question mark image, https://www.google.com/images for the snapshot of their homepage, and the Fantastic Mr. Fox wiki for the
