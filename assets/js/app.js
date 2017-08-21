@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(".snippet").on("click",function(){
-    $("#exampleModal").modal("show");
+    alert("Welcome to my portfolio, please explore!");
   });
   let objectArray = [
     {
@@ -50,4 +50,4 @@ $(document).ready(function(){
       //add image to array
       //add image to for loop
       //make it work on the webpage
-  });
+    });
