@@ -15,15 +15,11 @@ $(document).ready(function(){
       description: "An app created for users to create posts about interesting aspects of various cities.",
       project_link: "https://vast-falls-69882.herokuapp.com/"
     }
-
-
-      ];
+  ];
 
       for (i = 0; i < objectArray.length; i++){
-        $(".project_links").append(`<a href="#img_1"><li>${objectArray[i].name}</li></a><li>${objectArray[i].project_name}</li>
+        $(".projects").append(`<a href="#img_1"><li>${objectArray[i].name}</li></a><li>${objectArray[i].name}</li>
         <li>${objectArray[i].description}</li>`)
-        // $(".project_links").append(`<li>${objectArray[i].project_name}</li>`)
-        // $(".project_links").append(`<li>${objectArray[i].description}</li>`)
-        $("#img_1").attr("src", `${objectArray[i].project_image}`)
+        $("#img_1").attr("src", `${objectArray[i].project_link}`)
       }
 });
