@@ -1,28 +1,20 @@
 $(document).ready(function(){
-  $(".snippet").on("click",function(){
-    alert("Welcome to my portfolio, please explore!");
-  });
   let objectArray = [
     {
-      name: "My First Project",
-      project_name: "Google",
-      description: "A Search Engine",
-      project_image: "./assets/imgs/Google_Screenshot.jpeg"
-    }];
-    let objectArray_2 = [
-      {
-        name: "Security Questions Project",
-        project_name: "Bryan's Security Questions",//"file:///Users/bryanalbini/wdi/js-control-flow-training/starter-code/index.html",
-        description: "Setting Up a Few Security Questions",
-        project_image:"https://d30y9cdsu7xlg0.cloudfront.net/png/45447-200.png"
-      }];
-      let objectArray_3 = [
-        {
-          name: "My Third Project",
-          project_name: "The Fantastic Mr. Fox",//"file:///Users/bryanalbini/wdi/json-to-html-with-mr-fox/index.html",
-          description: "Learning About the Fantastic Mr. Fox",
-          project_image:"https://vignette1.wikia.nocookie.net/fantasticmrfox/images/e/ed/MrFox.jpg/revision/latest?cb=20140512194259"
-        }
+      name: "Paladin",
+      description: "An app designed for players of Dungeons and Dragons to create characters and maintain information about the party in their campaign.",
+      project_link: "https://salty-everglades-69252.herokuapp.com/"
+    },
+    {
+      name: "MicDrop",
+      description: "An app designed for people to create playlists and share them with others.",
+      project_link: "https://micdropapp.herokuapp.com/playlists"
+    },
+    {
+      name: "Vagabond",
+      description: "An app created for users to create posts about interesting aspects of various cities.",
+      project_link: "https://vast-falls-69882.herokuapp.com/"
+    }
 
 
       ];
@@ -34,27 +26,4 @@ $(document).ready(function(){
         // $(".project_links").append(`<li>${objectArray[i].description}</li>`)
         $("#img_1").attr("src", `${objectArray[i].project_image}`)
       }
-      // for (i = 0; i < objectArray.length; i++){
-      //   $(".project_links").append(`<a href="#img_1"><li>${objectArray[i].name}</li></a>`)
-      //   $(".project_links").append(`<li>${objectArray[i].project_name}</li>`)
-      //   $(".project_links").append(`<li>${objectArray[i].description}</li>`)
-      //   $("#img_1").attr("src", `${objectArray[i].project_image}`)
-      // }
-      for (i = 0; i < objectArray.length; i++){
-        $(".project_links_2").append(`<a href="#img_2"><li>${objectArray_2[i].name}</li></a>`)
-        $(".project_links_2").append(`<li>${objectArray_2[i].project_name}</li>`)
-        $(".project_links_2").append(`<li>${objectArray_2[i].description}</li>`)
-        $("#img_2").attr("src", `${objectArray_2[i].project_image}`)
-      }
-      for (i = 0; i < objectArray.length; i++){
-        $(".project_links_3").append(`<a href="#img_3"><li>${objectArray_3[i].name}</li></a>`)
-        $(".project_links_3").append(`<li>${objectArray_3[i].project_name}</li>`)
-        $(".project_links_3").append(`<li>${objectArray_3[i].description}</li>`)
-        $("#img_3").attr("src", `${objectArray_3[i].project_image}`)
-      };
-
-
-      //add image to array
-      //add image to for loop
-      //make it work on the webpage
-    });
+});
