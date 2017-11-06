@@ -17,7 +17,6 @@ h1 {
 img {
   display: block;
   margin: auto;
-  /*width: 35%;*/
   border-radius: 100px;
   padding: 25px;
 }
@@ -64,9 +63,9 @@ h3{
   padding:25px;
   color: white;
 }
-/*.topnav a:hover {*/
-  /*background-color: transparent;*/
-  /*color: transparent;*/
+/*.topnav a:hover {
+  background-color: transparent;
+  color: transparent;*/
 }
 .topnav a:active {
   background-color:blue;

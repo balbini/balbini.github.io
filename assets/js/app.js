@@ -7,7 +7,7 @@ $(document).ready(function(){
       name: "My First Project",
       project_name: "Google",
       description: "A Search Engine",
-      project_image: "https://www.google.com/homepage/images/hero-dhp-chrome-mac.jpg?mmfb=9f871c66de344d37d2dd5a8c74d03a1b"
+      project_image: "./assets/imgs/Google_Screenshot.jpeg"
     }];
     let objectArray_2 = [
       {
@@ -28,11 +28,18 @@ $(document).ready(function(){
       ];
 
       for (i = 0; i < objectArray.length; i++){
-        $(".project_links").append(`<a href="#img_1"><li>${objectArray[i].name}</li></a>`)
-        $(".project_links").append(`<li>${objectArray[i].project_name}</li>`)
-        $(".project_links").append(`<li>${objectArray[i].description}</li>`)
+        $(".project_links").append(`<a href="#img_1"><li>${objectArray[i].name}</li></a><li>${objectArray[i].project_name}</li>
+        <li>${objectArray[i].description}</li>`)
+        // $(".project_links").append(`<li>${objectArray[i].project_name}</li>`)
+        // $(".project_links").append(`<li>${objectArray[i].description}</li>`)
         $("#img_1").attr("src", `${objectArray[i].project_image}`)
       }
+      // for (i = 0; i < objectArray.length; i++){
+      //   $(".project_links").append(`<a href="#img_1"><li>${objectArray[i].name}</li></a>`)
+      //   $(".project_links").append(`<li>${objectArray[i].project_name}</li>`)
+      //   $(".project_links").append(`<li>${objectArray[i].description}</li>`)
+      //   $("#img_1").attr("src", `${objectArray[i].project_image}`)
+      // }
       for (i = 0; i < objectArray.length; i++){
         $(".project_links_2").append(`<a href="#img_2"><li>${objectArray_2[i].name}</li></a>`)
         $(".project_links_2").append(`<li>${objectArray_2[i].project_name}</li>`)
