@@ -18,8 +18,8 @@ $(document).ready(function(){
   ];
 
       for (i = 0; i < objectArray.length; i++){
-        $(".projects").append(`<a href="#img_1"><li>${objectArray[i].name}</li></a><li>${objectArray[i].name}</li>
-        <li>${objectArray[i].description}</li>`)
+        $(".projects").append(`<a href="#img_1"><h3>${objectArray[i].name}</h3></a>
+        <p>-${objectArray[i].description}</li>`)
         $("#img_1").attr("src", `${objectArray[i].project_link}`)
       }
 });
