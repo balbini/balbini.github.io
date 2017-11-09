@@ -19,6 +19,7 @@ img {
   margin: auto;
   border-radius: 100px;
   padding: 25px;
+  width:30%;
 }
 
 a {
@@ -31,9 +32,9 @@ nav {
   display: flex;
   flex-direction: row;
   align-content: center;
-  padding-left: 300px;
+
 }
-h3{
+h3, h4{
   flex-grow: 1;
   align-self: auto;
   color: white;
@@ -118,4 +119,10 @@ li {
 #img_3 {
   width: 50%;
   height: auto
+}
+
+h5 {
+  text-align: center;
+  color: white;
+font-family: "Spectral SC", sans-serif;
 }
