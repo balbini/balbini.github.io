@@ -2,17 +2,17 @@ $(document).ready(function(){
   let objectArray = [
     {
       name: "Paladin",
-      description: "An app designed for players of Dungeons and Dragons to create characters and maintain information about the party in their campaign.",
+      description: "An app designed for players of Dungeons and Dragons to create characters and maintain information about the party in their campaign. Built with Ruby on Rails.",
       project_link: "https://salty-everglades-69252.herokuapp.com/"
     },
     {
       name: "MicDrop",
-      description: "An app designed for people to create playlists and share them with others.",
+      description: "An app designed for people to create playlists and share them with others. Built in a MEN Stack.",
       project_link: "https://micdropapp.herokuapp.com/playlists"
     },
     {
       name: "Vagabond",
-      description: "An app created for users to create posts about interesting aspects of various cities.",
+      description: "An app created for users to create posts about interesting aspects of various cities. Built with Ruby on Rails.",
       project_link: "https://vast-falls-69882.herokuapp.com/"
     }
   ];
