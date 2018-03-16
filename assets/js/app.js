@@ -9,7 +9,7 @@ $(document).ready(function(){
       name:"Galli Consulting, Inc.",
       description: "This is a project for Galli Consulting, Inc. An accounting and financial consulting firm. Built in NodeJS, Express, Handlebars, and Materialize.",
       project_link:"https://stormy-sea-11849.herokuapp.com/"
-    }
+    },
     {
       name: "MicDrop",
       description: "An app designed for people to create playlists and share them with others. Built with MongoDB, Express, NodeJS and Bootstrap.",
