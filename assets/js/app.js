@@ -27,7 +27,5 @@ $(document).ready(function(){
         <p>-${objectArray[i].description}</li>`)
         $("#img_1").attr("src", `${objectArray[i].project_link}`)
       };
-    function(){
-      objectArray.name.mouseover(`<strong><h4>${objectArray.name}</h4></strong>`);
-    }
+    
 });
