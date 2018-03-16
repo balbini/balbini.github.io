@@ -2,17 +2,22 @@ $(document).ready(function(){
   let objectArray = [
     {
       name: "Paladin",
-      description: "An app designed for players of Dungeons and Dragons to create characters and maintain information about the party in their campaign. Built with Ruby on Rails.",
+      description: "An app designed for players of Dungeons and Dragons to create characters and maintain information about the party in their campaign. Built with Ruby on Rails, Javascript, Devise, and Materialize.",
       project_link: "https://salty-everglades-69252.herokuapp.com/"
     },
     {
+      name:"Galli Consulting, Inc.",
+      description: "This is a project for Galli Consulting, Inc. An accounting and financial consulting firm. Built in NodeJS, Express, Handlebars, and Materialize.",
+      project_link:"https://stormy-sea-11849.herokuapp.com/"
+    }
+    {
       name: "MicDrop",
-      description: "An app designed for people to create playlists and share them with others. Built in a MEN Stack.",
+      description: "An app designed for people to create playlists and share them with others. Built with MongoDB, Express, NodeJS and Bootstrap.",
       project_link: "https://micdropapp.herokuapp.com/playlists"
     },
     {
       name: "Vagabond",
-      description: "An app created for users to create posts about interesting aspects of various cities. Built with Ruby on Rails.",
+      description: "An app created for users to create posts about interesting aspects of various cities. Built with Ruby on Rails, Javascript, and Materialize.",
       project_link: "https://vast-falls-69882.herokuapp.com/"
     }
   ];
@@ -21,5 +26,8 @@ $(document).ready(function(){
         $(".projects").append(`<a href="${objectArray[i].project_link}"><h4>${objectArray[i].name}</h4></a>
         <p>-${objectArray[i].description}</li>`)
         $("#img_1").attr("src", `${objectArray[i].project_link}`)
-      }
+      };
+    function(){
+      objectArray.name.mouseover(`<strong><h4>${objectArray.name}</h4></strong>`);
+    }
 });
